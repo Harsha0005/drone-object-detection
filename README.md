@@ -33,7 +33,7 @@ The system is designed for applications such as **surveillance, search & rescue,
 
 ```id="projstr01"
 drone-object-detection/
-│── dataset/                # Training & testing images (optional - not uploaded)
+│── dataset/                # Training & testing images 
 │── models/                 # Trained YOLO weights
 │── src/
 │   │── detect.py           # Main detection script
@@ -45,7 +45,15 @@ drone-object-detection/
 ```
 
 ---
+## 📊 Dataset
 
+The dataset used in this project is available here:
+
+🔗 [Download Dataset](https://drive.google.com/drive/folders/1GERXKlJEynWNzlz7XQfswKZkFgSaBAUY?usp=sharing)
+
+Description:
+- Contains features like [mention features]
+- Used for [prediction/classification task]
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
@@ -124,7 +132,7 @@ python src/detect.py
 * Large datasets are not included (use Roboflow link instead)
 * Ensure proper drone permissions before real deployment
 * Model performance depends on training dataset quality
-
+Dataset Link:https://drive.google.com/drive/folders/1GERXKlJEynWNzlz7XQfswKZkFgSaBAUY?usp=sharing
 ---
 
 ## 🤝 Contributing
